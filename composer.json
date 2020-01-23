@@ -1,0 +1,14 @@
+{
+  "name": "dietervyncke/dry-faq",
+  "description": "FAQ package for dry",
+  "type": "library",
+  "require": {
+    "reinvanoyen/oak": "^1.0.8",
+    "dietervyncke/dry-dbi": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tnt\\Faq\\": "src/"
+    }
+  }
+}
