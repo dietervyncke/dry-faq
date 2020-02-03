@@ -25,6 +25,7 @@ class FaqItemManager extends \dry\orm\Manager
             'title' => 'item',
             'singular' => 'item',
             'plural' => 'items',
+            'id' => 'faq-item',
         ] );
 
         $contentComponents = [];

@@ -25,6 +25,7 @@ class FaqCategoryManager extends \dry\orm\Manager
             'title' => 'Faq',
             'singular' => 'category',
             'plural' => 'categories',
+            'id' => 'faq-category',
         ] );
 
         $generalComponents = [];
