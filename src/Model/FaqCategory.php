@@ -24,7 +24,7 @@ class FaqCategory extends \dry\orm\Model
      */
     public function get_questions(): HasMany
     {
-        return $this->has_many(FaqItem::class, 'faq_category');
+        return $this->has_many(FaqItem::class, 'faq_category', 'ORDER BY sort_index');
     }
 
     /**
